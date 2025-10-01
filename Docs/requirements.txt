@@ -1,0 +1,27 @@
+# Core LLM
+llama-cpp-python==0.2.90
+huggingface-hub==0.24.5
+
+# Embeddings & Vector DB
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0
+
+# OSINT Tools Support
+dnspython==2.6.1
+requests==2.32.3
+aiohttp==3.10.5
+
+# Data Processing
+pandas==2.2.2
+pyyaml==6.0.1
+python-whois==0.9.4
+
+# CLI & Reports
+rich==13.7.1
+click==8.1.7
+jinja2==3.1.4
+weasyprint==62.3
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.4
