@@ -1,9 +1,9 @@
 # OSINT-Recon LLM Project Setup Guide
 
 ## System Requirements Check
-- ✅ RTX 3050 (4GB VRAM) - Perfect for Mistral 7B quantized
-- ✅ Intel i5 11th Gen - Sufficient for inference
-- ✅ RAM: Ensure you have at least 16GB total
+- RTX 3050 (4GB VRAM) - for Mistral 7B quantized
+- Intel i5 11th Gen - for inference
+- RAM: 16GB
 
 ## Project Structure
 ```
@@ -35,9 +35,6 @@ osint-recon-llm/
 ### 1.1 Create Virtual Environment
 ```bash
 python -m venv osint_env
-# On Windows:
-osint_env\Scripts\activate
-# On Linux/Mac:
 source osint_env/bin/activate
 ```
 
